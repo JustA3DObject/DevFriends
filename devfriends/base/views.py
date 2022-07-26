@@ -4,8 +4,8 @@ from django.shortcuts import render
 
 rooms = [
     {'id': 1, 'name': 'Python'},
-    {'id': 1, 'name': 'HTML'},
-    {'id': 1, 'name': 'JavaScript'},
+    {'id': 2, 'name': 'HTML'},
+    {'id': 3, 'name': 'JavaScript'},
 
 ]
 
@@ -22,4 +22,4 @@ def room(request, pk):
             room = i
     context = {'room': room}
 
-    return render(request, 'base/room.html')
+    return render(request, 'base/room.html', context)
