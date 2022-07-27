@@ -12,4 +12,13 @@
         <input type="submit" value="Login">
     </form>
 </div>
+
+<div>
+    <form method="POST">
+        {% csrf_token %}
+
+
+        <input type="submit" value="Register">
+    </form>
+</div>
 {% endblock content %}
