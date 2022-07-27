@@ -6,7 +6,8 @@ from django.contrib.auth.models import User
 from django.shortcuts import render, redirect
 from django.db.models import Q
 from .models import Room, Topic
-from.forms import RoomForm
+from .forms import RoomForm
+from django.contrib.auth.forms import UserCreationForm
 
 # Create your views here.
 
