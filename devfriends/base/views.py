@@ -55,6 +55,9 @@ def registerUser(request):
             user.save()
             login(request, user)
             return redirect('home')
+        else:
+            messages.error(
+                request, '(´･_･`) An error occurred during registration! Try another username maybe?')
 
     return render(request, 'base/login_register.html', {'form': form})
 
