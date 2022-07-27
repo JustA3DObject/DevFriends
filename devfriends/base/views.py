@@ -6,7 +6,8 @@ from.forms import RoomForm
 
 
 def home(request):
-    rooms = Room.objects.all()
+    q = request.GET.get('q') if request.GET.get('q') != None else ''
+    rooms = Room.objects.filter(topic__name=q)
 
     topic = Topic.objects.all()
 
