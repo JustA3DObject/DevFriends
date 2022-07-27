@@ -17,8 +17,7 @@
 {% else %}
 <div>
     <form method="POST">
-        {% csrf_token %}
-
+        {% csrf_token %} {{ form.as_p }}
         <input type="submit" value="Register">
     </form>
     <p>Already have an account?</p>
