@@ -1,3 +1,4 @@
+from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
@@ -18,7 +19,8 @@ def loginPage(request):
         try:
             user = User.objects.get(username=username)
         except:
-            messages.error(request, 'Username or Password does not exist! :<')
+            messages.error(
+                request, '¯\(°_o)/¯ Username or Password does not exist!')
         else:
             user = authenticate(request, username=username, password=password)
             if user is not None:
@@ -26,7 +28,7 @@ def loginPage(request):
                 return redirect('home')
             else:
                 messages.error(
-                    request, 'Username or Password does not exist! :<')
+                    request, '¯\(°_o)/¯ Username or Password does not exist!')
 
     context = {}
     return render(request, 'base/login_register.html', context)
@@ -75,6 +77,9 @@ def updateRoom(request, pk):
     room = Room.objects.get(id=pk)
     form = RoomForm(instance=room)
 
+    if request.user != room.host:
+        return HttpResponse('You are not allowed here! ヽ(ಠ_ಠ) ノ ')
+
     if request.method == "POST":
         form = RoomForm(request.POST, instance=room)
         if form.is_valid():
@@ -88,6 +93,10 @@ def updateRoom(request, pk):
 @login_required(login_url='login')
 def deleteRoom(request, pk):
     room = Room.objects.get(id=pk)
+
+    if request.user != room.host:
+        return HttpResponse('You are not allowed here! ヽ(ಠ_ಠ) ノ ')
+
     if request.method == 'POST':
         room.delete()
         return redirect('home')
