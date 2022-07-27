@@ -11,7 +11,13 @@
 
 <body>
 
-    {% include 'navbar.html' %} {% block content %} {% endblock content %}
+    {% include 'navbar.html' %} {% if messages %}
+    <ul class="error-messages">
+
+        {% for message in messages %} {{ message }} {% endfor %}
+
+    </ul>
+    {% endif %} {% block content %} {% endblock content %}
 
 </body>
 
