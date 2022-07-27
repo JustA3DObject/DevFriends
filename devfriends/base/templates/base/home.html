@@ -2,7 +2,13 @@
 <div class="home-container">
     <div>
         <h3>Browse Topics</h3>
-        <hr> {% for topic in topics %}
+        <hr>
+
+        <div>
+            <a href="{% url 'home' %}">All</a>
+        </div>
+
+        {% for topic in topics %}
         <div>
             <a href="{% url 'home' %}?q={{ topic.name }}">{{ topic.name }}</a>
         </div>
