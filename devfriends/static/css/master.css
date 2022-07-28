@@ -113,3 +113,17 @@ a {
     outline: none;
     cursor: pointer;
 }
+
+.avatar {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid var(--color-main);
+}
+
+.avatar img {
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
