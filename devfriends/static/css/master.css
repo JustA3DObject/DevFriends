@@ -227,6 +227,17 @@ a {
     fill: var(--color-light);
 }
 
+.dropdown-button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.dropdown-button:hover svg {
+    fill: var(--color-main);
+}
+
 .header {
     padding: 1.5rem;
     background-color: var(--color-dark);
