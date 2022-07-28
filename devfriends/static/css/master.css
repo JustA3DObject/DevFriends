@@ -271,3 +271,31 @@ a {
     box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
+
+.layout__boxHeader {
+    display: flex;
+    padding: 1.5rem;
+    background-color: var(--color-dark-light);
+}
+
+.layout__boxTitle {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.layout__boxTitle h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color-light);
+}
+
+.layout__boxTitle svg {
+    width: 1.6rem;
+    height: 1.6rem;
+    fill: var(--color-main);
+}
+
+.layout__body {
+    margin: 3rem;
+}
