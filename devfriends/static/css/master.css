@@ -227,6 +227,23 @@ a {
     fill: var(--color-light);
 }
 
+.header {
+    padding: 1.5rem;
+    background-color: var(--color-dark);
+}
+
+.header>.container {
+    display: flex;
+    gap: 9.5rem;
+}
+
+.header__logo,
+.header__user {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
 .layout {
     margin-top: 2.4rem;
 }
