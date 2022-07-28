@@ -190,3 +190,19 @@ a {
     border-radius: 1rem;
     background-color: var(--color-gray);
 }
+
+.dropdown-menu {
+    z-index: 111;
+    position: absolute;
+    top: 5rem;
+    right: 0.5rem;
+    background: var(--color-dark-light);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    display: none;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
