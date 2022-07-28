@@ -27,6 +27,13 @@ html {
     font-size: 56.25%;
 }
 
+body {
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 1.5rem;
+    min-height: 100vh;
+}
+
 .home-container {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
