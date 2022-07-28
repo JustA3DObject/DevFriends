@@ -226,3 +226,13 @@ a {
 .dropdown-menu a svg {
     fill: var(--color-light);
 }
+
+.layout {
+    margin-top: 2.4rem;
+}
+
+.layout>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
