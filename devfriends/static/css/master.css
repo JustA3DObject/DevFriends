@@ -46,17 +46,22 @@ a {
     text-decoration: none;
 }
 
-.home-container {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+.container {
+    max-width: 120rem;
+    width: 90%;
+    margin: auto;
 }
 
-.room-container {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-}
-
-.profile-container {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+.btn {
+    background-color: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
 }
