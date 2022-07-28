@@ -236,3 +236,24 @@ a {
     justify-content: space-between;
     align-items: flex-start;
 }
+
+.layout--3>.container>div:first-child {
+    flex-basis: 18%;
+    max-width: 22.5rem;
+}
+
+.layout--3>.container>div:nth-child(2) {
+    flex-basis: 50%;
+}
+
+.layout--3>.container>div:last-child {
+    flex-basis: 25%;
+}
+
+.layout--2>.container>div:first-child {
+    flex-basis: 72%;
+}
+
+.layout--2>.container>div:last-child {
+    flex-basis: 25%;
+}
