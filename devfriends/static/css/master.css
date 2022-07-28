@@ -90,3 +90,26 @@ a {
     background-color: var(--color-dark-light);
     color: var(--color-light);
 }
+
+.btn>svg {
+    fill: currentColor;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.btn--pill {
+    border-radius: 10rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 6px 2.5rem;
+    color: var(--color-main);
+    background: transparent;
+    border: 2px solid var(--color-main);
+}
+
+.action-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
