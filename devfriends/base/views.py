@@ -83,6 +83,7 @@ def room(request, pk):
         messages = Message.objects.create(user=request.user,
                                           room=room,
                                           body=request.POST.get('body'))
+        room.participants.add(request.user)
         return redirect('room', pk=room.id)
 
     context = {'room': room, 'room_messages': room_messages,
