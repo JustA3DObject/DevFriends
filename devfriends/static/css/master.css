@@ -279,6 +279,20 @@ a {
     color: var(--color-light);
 }
 
+.header__menu {
+    margin-left: auto;
+    position: relative;
+}
+
+.header__menu a {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--color-gray);
+}
+
 .layout {
     margin-top: 2.4rem;
 }
