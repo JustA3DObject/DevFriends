@@ -127,3 +127,29 @@ a {
     object-fit: cover;
     object-position: center;
 }
+
+.avatar::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: var(--color-gray);
+    z-index: 111;
+    border-radius: 50%;
+    border: 0.3rem solid var(--color-dark);
+}
+
+.avatar.active::after {
+    background-color: var(--color-success);
+}
+
+.avatar.avatar--small img {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.avatar.avatar--small:after {
+    width: 0.7rem;
+    height: 0.7rem;
+    bottom: 0px;
+    right: -6px;
+}
