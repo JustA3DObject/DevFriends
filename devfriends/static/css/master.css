@@ -76,3 +76,17 @@ a {
 .btn--link:hover {
     text-decoration: underline;
 }
+
+.btn--main {
+    background-color: var(--color-main);
+    color: var(--color-dark);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn--dark {
+    background-color: var(--color-dark-light);
+    color: var(--color-light);
+}
