@@ -293,6 +293,21 @@ a {
     color: var(--color-gray);
 }
 
+.header__menu img {
+    height: 3.6rem;
+}
+
+.header__menu p {
+    line-height: 1.2;
+}
+
+.header__menu span {
+    color: var(--color-main);
+    font-weight: 500;
+    font-size: 1.4rem;
+    display: block;
+}
+
 .layout {
     margin-top: 2.4rem;
 }
