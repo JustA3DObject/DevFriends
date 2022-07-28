@@ -36,6 +36,12 @@ body {
     min-height: 100vh;
 }
 
+a {
+    display: inline-block;
+    color: var(--color-main);
+    text-decoration: none;
+}
+
 .home-container {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
