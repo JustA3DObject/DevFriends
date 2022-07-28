@@ -264,6 +264,13 @@ a {
     border-radius: 4px;
 }
 
+.header__search svg {
+    fill: var(--color-gray);
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+
 .layout {
     margin-top: 2.4rem;
 }
