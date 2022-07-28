@@ -255,6 +255,15 @@ a {
     color: var(--color-light);
 }
 
+.header__search>label {
+    background-color: var(--color-dark-medium);
+    padding: 1.3rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 4px;
+}
+
 .layout {
     margin-top: 2.4rem;
 }
