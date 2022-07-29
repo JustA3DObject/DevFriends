@@ -667,3 +667,7 @@ a {
 .roomListRoom__actions svg {
     fill: var(--color-light-gray);
 }
+
+.create-room.layout .layout__box {
+    max-width: 68rem;
+}
