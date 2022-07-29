@@ -699,3 +699,17 @@ a {
 .profile__about {
     margin-top: 2rem;
 }
+
+.profile__about h3 {
+    text-transform: uppercase;
+    color: var(--color-dark-light);
+    margin-bottom: 0.5rem;
+}
+
+.profile-page .roomList__header {
+    margin-bottom: 1.5rem;
+}
+
+.profile-page .roomList__header h2 {
+    color: var(--color-dark-light);
+}
