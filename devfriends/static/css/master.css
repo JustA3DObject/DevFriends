@@ -471,3 +471,17 @@ a {
 .form__avatar label:hover {
     text-decoration: underline;
 }
+
+.topics__header {
+    margin-bottom: 2rem;
+}
+
+.topics__header h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color-dark-light);
+}
+
+.topics__list {
+    list-style: none;
+}
