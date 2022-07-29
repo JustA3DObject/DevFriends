@@ -929,3 +929,29 @@ a {
     justify-content: flex-start;
     gap: 0.5rem;
 }
+
+.participants__list {
+    padding: 2rem;
+    height: 82.5vh;
+    overflow-y: scroll;
+    padding-bottom: 0;
+}
+
+.participant {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.participant p {
+    color: var(--color-light-gray);
+    line-height: 1.2;
+}
+
+.participant span {
+    display: block;
+    font-weight: 500;
+    color: var(--color-main);
+    font-weight: 1.4rem;
+}
