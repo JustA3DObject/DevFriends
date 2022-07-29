@@ -713,3 +713,12 @@ a {
 .profile-page .roomList__header h2 {
     color: var(--color-dark-light);
 }
+
+.room,
+.participants {
+    background: var(--color-dark);
+    max-height: 87.5vh;
+    border-radius: 0.7rem;
+    overflow: hidden;
+    position: relative;
+}
