@@ -866,3 +866,21 @@ a {
 .thread__top svg {
     fill: var(--color-dark-light);
 }
+
+.thread__author {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.thread__authorInfo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.thread__details {
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+}
