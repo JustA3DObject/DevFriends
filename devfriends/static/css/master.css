@@ -643,3 +643,23 @@ a {
     font-size: 1.2rem;
     display: block;
 }
+
+.activities__boxContent {
+    margin-left: 4.2rem;
+}
+
+.activities__boxContent {
+    font-size: 1.4rem;
+}
+
+.activities__boxContent a:hover {
+    text-decoration: underline;
+}
+
+.activities__boxRoomContent {
+    background: var(--color-bg);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-left: -4.2rem;
+}
