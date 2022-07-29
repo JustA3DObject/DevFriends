@@ -448,3 +448,14 @@ a {
     color: var(--color-light);
     padding: 0 10rem;
 }
+
+.form__action {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+
+.form__hide {
+    position: absolute;
+    left: -9999px;
+}
