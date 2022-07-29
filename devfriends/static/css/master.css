@@ -818,3 +818,19 @@ a {
 .room__author:hover {
     text-decoration: underline;
 }
+
+.room__topics {
+    padding: 0.5rem 1.5rem;
+    background: var(--color-dark-light);
+    color: var(--color-light);
+    display: inline-block;
+    font-size: 1.4rem;
+    border-radius: 1.5rem;
+    margin: 1rem 0;
+}
+
+.room__conversation {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    height: 64%;
+}
