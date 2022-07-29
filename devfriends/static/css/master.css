@@ -834,3 +834,18 @@ a {
     margin-bottom: 4rem;
     height: 64%;
 }
+
+.threads h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color-gray);
+}
+
+.threads {
+    background: var(--color-bg);
+    border-radius: 0.7rem;
+    overflow-y: auto;
+    height: 100%;
+    margin-top: 28vh;
+    padding: 0 2rem 4rem 2rem;
+}
