@@ -494,3 +494,17 @@ a {
     color: var(--color-light-gray);
     transition: all 0.3s ease-in-out;
 }
+
+.topics__list li a.active,
+.topics__list li a:hover {
+    color: var(--color-main);
+}
+
+.topics__list li a span {
+    padding: 0.5rem 1rem;
+    background-color: var(--color-dark);
+    border-radius: 3px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
