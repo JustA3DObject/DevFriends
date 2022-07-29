@@ -562,3 +562,19 @@ a {
     align-items: center;
     gap: 1rem;
 }
+
+.roomListRoom__content {
+    margin: 1rem 0;
+}
+
+.roomListRoom__content a {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: var(--color-light);
+    transition: all 0.3s ease-in-out;
+}
+
+.roomListRoom__content a:hover {
+    color: var(--color-main);
+}
