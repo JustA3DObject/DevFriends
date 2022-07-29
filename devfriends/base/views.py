@@ -140,7 +140,7 @@ def updateRoom(request, pk):
         room.name = request.POST.get('name')
         room.topic = topic
         room.description = request.POST.get('description')
-
+        room.save()
         return redirect('home')
 
     context = {'form': form, 'topics': topics, 'room': room}
