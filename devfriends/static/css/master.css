@@ -625,3 +625,10 @@ a {
     letter-spacing: 1px;
     font-size: 1.4rem;
 }
+
+.activities__box {
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border: 2px solid var(--color-dark-medium);
+    border-radius: 5px;
+}
