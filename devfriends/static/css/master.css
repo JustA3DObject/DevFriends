@@ -523,3 +523,10 @@ a {
 .topics-page .header__search {
     display: block;
 }
+
+.roomList__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.4rem;
+}
