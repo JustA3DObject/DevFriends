@@ -849,3 +849,20 @@ a {
     margin-top: 28vh;
     padding: 0 2rem 4rem 2rem;
 }
+
+.thread {
+    border-left: 2px solid var(--color-dark);
+    padding-left: 1rem;
+    margin: 2rem 0;
+    padding: 2rem;
+}
+
+.thread__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thread__top svg {
+    fill: var(--color-dark-light);
+}
