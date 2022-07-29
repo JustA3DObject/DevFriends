@@ -609,3 +609,9 @@ a {
     font-weight: 500;
     font-size: 1.3rem;
 }
+
+.activities {
+    background: var(--color-dark);
+    border-radius: 5px;
+    overflow: hidden;
+}
