@@ -437,3 +437,14 @@ a {
     height: 10rem;
     resize: none;
 }
+
+.form__group select {
+    color: var(--color-gray);
+    font-weight: 400;
+}
+
+.form__group select option {
+    background-color: var(--color-dark-light);
+    color: var(--color-light);
+    padding: 0 10rem;
+}

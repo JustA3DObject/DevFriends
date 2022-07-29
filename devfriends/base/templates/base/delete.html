@@ -4,7 +4,7 @@
     {% csrf_token %}
     <p>Are you sure you want to delete "{{obj}}"?</p>
     <!-- Sends user back to where they came from for deleteing the object -->
-    <a href="{{request.META.HTTP_REFERER}}">Go back</a>
+    <a href="{{ request.META.HTTP_REFERER|escape }}">Go back</a>
     <input type="submit" value="Confirm">
 </form>
 
