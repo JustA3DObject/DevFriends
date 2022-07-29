@@ -663,3 +663,7 @@ a {
     margin-top: 1rem;
     margin-left: -4.2rem;
 }
+
+.roomListRoom__actions svg {
+    fill: var(--color-light-gray);
+}
