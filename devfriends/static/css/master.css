@@ -768,3 +768,53 @@ a {
 .room__topRight svg {
     fill: var(--color-main-light);
 }
+
+.room__header {
+    max-height: 30vh;
+    overflow-y: auto;
+    position: absolute;
+    width: 95%;
+    background: var(--color-dark);
+    z-index: 999;
+    top: 4.4rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.room__box {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 80.5vh;
+    padding-bottom: 0;
+}
+
+.room__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.room__info h3 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--color-main);
+}
+
+.room__hosted p {
+    text-transform: uppercase;
+    color: var(--color-gray);
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.room__author {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.room__author:hover {
+    text-decoration: underline;
+}
