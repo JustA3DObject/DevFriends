@@ -238,6 +238,17 @@ a {
     fill: var(--color-main);
 }
 
+.mobile-menu {
+    margin-bottom: 3rem;
+}
+
+.mobile-menuItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
 .header {
     padding: 1.5rem;
     background-color: var(--color-dark);
