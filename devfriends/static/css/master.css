@@ -397,3 +397,13 @@ a {
 .layout__body {
     margin: 3rem;
 }
+
+.form__group {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.form__split {
+    display: flex;
+    gap: 1.5rem;
+}
