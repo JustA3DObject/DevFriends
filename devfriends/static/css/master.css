@@ -740,3 +740,22 @@ a {
     fill: var(--color-light);
     cursor: pointer;
 }
+
+.room__topLeft {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.room__topLeft h3,
+.participants__top {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color-light);
+}
+
+.room__topLeft svg {
+    width: 1.6rem;
+    height: 1.6rem;
+    fill: var(--color-light);
+}
