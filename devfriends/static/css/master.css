@@ -918,3 +918,14 @@ a {
 .room__message>form>input::placeholder {
     color: var(--color-light-gray);
 }
+
+.participants__top span {
+    color: var(--color-main);
+    font-size: 1.3rem;
+    text-transform: none;
+}
+
+.participants__top {
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
