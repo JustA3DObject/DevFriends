@@ -459,3 +459,15 @@ a {
     position: absolute;
     left: -9999px;
 }
+
+.form__avatar label {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--color-main);
+    cursor: pointer;
+}
+
+.form__avatar label:hover {
+    text-decoration: underline;
+}
