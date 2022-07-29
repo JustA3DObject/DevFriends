@@ -759,3 +759,12 @@ a {
     height: 1.6rem;
     fill: var(--color-light);
 }
+
+.room__topRight {
+    display: flex;
+    column-gap: 1em;
+}
+
+.room__topRight svg {
+    fill: var(--color-main-light);
+}
