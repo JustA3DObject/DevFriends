@@ -485,3 +485,12 @@ a {
 .topics__list {
     list-style: none;
 }
+
+.topics__list li a {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    font-weight: 500;
+    color: var(--color-light-gray);
+    transition: all 0.3s ease-in-out;
+}
