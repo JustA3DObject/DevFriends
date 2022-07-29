@@ -426,3 +426,14 @@ a {
     font-weight: 500;
     outline: none;
 }
+
+.form__group input:focus,
+.form__group textarea:focus {
+    border-color: var(--color-main);
+}
+
+.form__group textarea {
+    background: transparent;
+    height: 10rem;
+    resize: none;
+}
