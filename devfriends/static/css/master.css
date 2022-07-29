@@ -586,3 +586,12 @@ a {
     align-items: center;
     justify-content: space-between;
 }
+
+.roomListRoom__joined {
+    color: var(--color-light-gray);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
