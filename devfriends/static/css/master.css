@@ -672,6 +672,10 @@ a {
     max-width: 68rem;
 }
 
+.delete-item.layout .layout__box {
+    max-width: 68rem;
+}
+
 .profile {
     margin-bottom: 3rem;
 }
@@ -883,4 +887,30 @@ a {
 .thread__details {
     font-size: 1.4rem;
     margin-top: 0.5rem;
+}
+
+.room__message {
+    padding: 2rem;
+    position: absolute;
+    z-index: 111;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+}
+
+.room__message>form>input {
+    resize: none;
+    background-color: var(--color-dark-light);
+    color: var(--color-light);
+    border: none;
+    outline: none;
+    border-radius: 0.7rem;
+    height: 4.5rem;
+    width: 100%;
+    margin-top: -1rem;
+    padding: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    position: relative;
 }
