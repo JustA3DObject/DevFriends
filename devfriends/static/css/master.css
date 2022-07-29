@@ -549,3 +549,9 @@ a {
     border-radius: 1rem;
     padding: 2rem;
 }
+
+.roomListRoom__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
