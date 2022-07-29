@@ -615,3 +615,13 @@ a {
     border-radius: 5px;
     overflow: hidden;
 }
+
+.activities__header h2 {
+    background-color: var(--color-dark-light);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    color: var(--color-light);
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+}
