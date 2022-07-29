@@ -671,3 +671,15 @@ a {
 .create-room.layout .layout__box {
     max-width: 68rem;
 }
+
+.profile {
+    margin-bottom: 3rem;
+}
+
+.profile__avatar {
+    text-align: center;
+}
+
+.profile__info {
+    text-align: center;
+}
