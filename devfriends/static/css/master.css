@@ -530,3 +530,8 @@ a {
     align-items: center;
     margin-bottom: 2.4rem;
 }
+
+.roomList__header p {
+    font-weight: 500;
+    color: var(--color-dark-light);
+}
