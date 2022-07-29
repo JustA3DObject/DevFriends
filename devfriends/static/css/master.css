@@ -542,3 +542,10 @@ a {
     font-weight: 500;
     color: var(--color-dark-light);
 }
+
+.roomListRoom {
+    margin-bottom: 2.4rem;
+    background-color: var(--color-dark);
+    border-radius: 1rem;
+    padding: 2rem;
+}
