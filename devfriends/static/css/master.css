@@ -722,3 +722,21 @@ a {
     overflow: hidden;
     position: relative;
 }
+
+.room__top,
+.participants__top {
+    background: var(--color-dark-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.room__top svg,
+.thread__top svg {
+    width: 1.6rem;
+    height: 1.6rem;
+    fill: var(--color-light);
+    cursor: pointer;
+}
