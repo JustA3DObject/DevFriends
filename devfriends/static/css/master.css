@@ -683,6 +683,10 @@ a {
     max-width: 68rem;
 }
 
+.update-account.layout .layout__box {
+    max-width: 68rem;
+}
+
 .delete-item.layout .layout__box {
     max-width: 68rem;
 }

@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 from django.shortcuts import render, redirect
 from django.db.models import Q
 from .models import Room, Topic, Message
-from .forms import RoomForm
+from .forms import RoomForm, UserForm
 from django.contrib.auth.forms import UserCreationForm
 
 # Create your views here.
@@ -177,4 +177,6 @@ def deleteMessage(request, pk):
 
 @login_required(login_url='login')
 def updateUser(request):
-    return render(request, 'base/update_user.html')
+    user = request.user
+    form = UserForm(instance=user)
+    return render(request, 'base/update_user.html', {'form': form})
