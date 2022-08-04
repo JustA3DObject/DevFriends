@@ -988,3 +988,13 @@ a {
         font-size: 75%;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .header__search {
+        display: none;
+    }
+    .mobile-menu .header__search {
+        display: block;
+        margin-bottom: 2.4rem;
+    }
+}
