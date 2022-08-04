@@ -997,4 +997,15 @@ a {
         display: block;
         margin-bottom: 2.4rem;
     }
+    .room__header {
+        top: 4.3rem;
+        padding-right: 2rem;
+    }
+    .room__box {
+        padding-left: 2.5rem;
+        padding-right: 2rem;
+        height: 80.5vh;
+        overflow-y: auto;
+        padding-bottom: 0;
+    }
 }
