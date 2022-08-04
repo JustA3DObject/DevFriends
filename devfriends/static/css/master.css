@@ -1031,4 +1031,8 @@ a {
     .participants {
         display: none;
     }
+    .layout--3>.container>div:nth-child(2),
+    .layout--2>.container>div:first-child {
+        flex-basis: 100%;
+    }
 }
