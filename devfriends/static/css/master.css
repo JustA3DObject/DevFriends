@@ -1015,3 +1015,12 @@ a {
         display: none;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .header__search input {
+        width: 20rem;
+    }
+    .header>.container {
+        gap: 3rem;
+    }
+}
