@@ -1024,3 +1024,11 @@ a {
         gap: 3rem;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .activities,
+    .topics,
+    .participants {
+        display: none;
+    }
+}
