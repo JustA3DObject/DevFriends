@@ -6,3 +6,7 @@ if (dropdownButton) {
         dropdownMenu.classList.toggle("show");
     });
 }
+
+const conversationThread = document.querySelector(".room__box");
+if (conversationThread)
+    conversationThread.scrollTop = conversationThread.scrollHeight;
