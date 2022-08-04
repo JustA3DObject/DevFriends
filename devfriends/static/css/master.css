@@ -1009,3 +1009,9 @@ a {
         padding-bottom: 0;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .header__logo h1 {
+        display: none;
+    }
+}
