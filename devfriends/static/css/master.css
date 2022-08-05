@@ -972,7 +972,13 @@ a {
 }
 
 @media screen and (min-width: 500px) {
-    .mobile-menu {
+    .mobile-menu>.header__search {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .mobile-menu>.mobile-menuItems {
         display: none;
     }
 }
@@ -989,7 +995,7 @@ a {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 526px) {
     .header__search {
         display: none;
     }
@@ -1016,7 +1022,7 @@ a {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 864px) {
     .header__search input {
         width: 20rem;
     }
