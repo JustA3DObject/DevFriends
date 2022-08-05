@@ -24,7 +24,7 @@ These are the two links that you can access to make API calls:
 
 - Django 4.0.6
 - Python 3.10.4
-- Django REST API Framework
+- Django REST API Framework 3.13.1
 - JavaScript
 - CSS 3
 - HTML 5
