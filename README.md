@@ -41,7 +41,7 @@ These are the two links that you can access to make API calls:
 >conda activate envname
 6. If you don't want to use conda, create virtual environment using
 >python -m venv ./venv(name) 
-[Replace (name) with whatever suffix you want]
+{Replace (name) with whatever suffix you want}
 7. To activate environment via powershell type
 >venv(name)/Script/activate.ps1
 8. Install the dependencies using
@@ -51,6 +51,5 @@ These are the two links that you can access to make API calls:
 and create the app using
 >python manage.py startapp appname
 10. Replace the default files with the favorable files from this repo except the security key in settings.py
-11. Enter into the project directory
-12. Run the project using
+11. Run the project using
 >python manage.py runserver
