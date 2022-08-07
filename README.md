@@ -32,20 +32,25 @@ These are the two links that you can access to make API calls:
 ## How to copy this project and run it?
 
 1. Install python 3.9 or above
-2. Install Anaconda from web
-3. Create virtual environment using 
->conda create -n envname python=3.9 anaconda
-4. Enter the virtual environment by 
+2. Clone this repository using 
+>git clone https://github.com/JustA3DObject/DevFriends.git
+3. Install Anaconda from web
+4. Clone the virtual environment using 
+>conda env create --name envname -f environment.yml
+5. Enter the virtual environment by 
 >conda activate envname
-5.- Install the dependencies using
+6. If you don't want to use conda, create virtual environment using
+>python -m venv ./venv(name) 
+[Replace (name) with whatever suffix you want]
+7. To activate environment via powershell type
+>venv(name)/Script/activate.ps1
+8. Install the dependencies using
 >pip install -r requirements.txt
-6. Create a django project using
+9. Create a django project using
 >django-admin startproject projectname
 and create the app using
 >python manage.py startapp appname
-7. Clone this repository using 
->git clone https://github.com/JustA3DObject/DevFriends.git
-8. Replace the default files with the favorable files from this repo except the security key in settings.py
-9. Enter into the project directory
-10. Run the project using
+10. Replace the default files with the favorable files from this repo except the security key in settings.py
+11. Enter into the project directory
+12. Run the project using
 >python manage.py runserver
