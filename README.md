@@ -37,7 +37,7 @@ These are the two links that you can access to make API calls:
 3. Install Anaconda from web
 4. Clone the virtual environment using 
 >conda env create --name envname -f environment.yml
-5. Enter the virtual environment by 
+5. Activate the virtual environment by 
 >conda activate envname
 6. If you don't want to use conda, create virtual environment using
 >python -m venv ./venv(name) 
