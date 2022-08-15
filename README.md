@@ -17,8 +17,8 @@ A chatting app for developers, programmers and coders.
 
 These are the two links that you can access to make API calls:
 
-1. {website URL}/api/rooms to get list of all the rooms with other details about them in Json format.
-2. {website URL}/api/rooms/{room id} to get details about a particular room. Room ids can be found in the url bar when you visit a particular room or in the Json list of rooms if you fetch.
+1. [{website URL}/api/rooms](http://3.108.223.237/api/rooms/) to get list of all the rooms with other details about them in Json format.
+2. [{website URL}/api/rooms/{room id}](http://3.108.223.237/api/rooms/1/) to get details about a particular room. Room ids can be found in the url bar when you visit a particular room or in the Json list of rooms if you fetch.
 
 ## Tools
 
