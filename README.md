@@ -13,6 +13,10 @@ A chatting app for developers, programmers and coders.
 - You can also lurk around without logging in.
 - Call APIs to collect some data.
 
+## About
+
+This [website](https://devfr1ends.pythonanywhere.com) is a platform for developers to chat and discuss everything about programming. It is created using Django along with some other python libraries. It was hosted on AWS initially but later it was moved to pythonanywhere. 
+
 ## API calls
 
 These are the two links that you can access to make API calls:
